@@ -13,6 +13,7 @@ You will need the following installed:
 * cd vue-drupal
 * composer install
 * cd docroot/themes/custom/vue
+* npm install
 * gulp
 
 You'll also need to create a database, set up your web server, and go through the standard Drupal install.
