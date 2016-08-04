@@ -1,0 +1,5 @@
+main:
+  version: 1.x
+  js:
+    js/vue.js: {}
+    js/main.js: {}

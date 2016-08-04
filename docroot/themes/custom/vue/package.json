@@ -1,0 +1,32 @@
+{
+  "name": "vue-drupal",
+  "version": "1.0.0",
+  "description": "Vue.js demo in Drupal",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-runtime": "^6.9.2",
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "vue": "^1.0.26",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.3",
+    "vue-router": "^0.7.13",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "vue-resource": "^0.9.3",
+    "vue-router": "^0.7.13"
+  }
+}

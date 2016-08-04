@@ -1,0 +1,15 @@
+<?php
+
+/*
+ * Implements hook_theme_suggestions_HOOK()
+ */
+
+function vue_theme_suggestions_block_alter(&$suggestions, $variables) {
+  $content = $variables['elements']['content'];
+  if (isset($content['#block_content']) && $content['#block_content'] instanceof \Drupal\block_content\BlockContentInterface) {
+    $suggestions[] = 'block__' . $content['#block_content']->bundle();
+  }
+}
+
+function vue_preprocess_block(&$variables) {
+}
