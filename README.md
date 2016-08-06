@@ -10,7 +10,7 @@ You will need the following installed:
 ## Getting Started
 
 * git clone https://github.com/karlkedrovsky/drupalcorn2016-vue-drupal.git
-* cd vue-drupal
+* cd drupalcorn2016-vue-drupal
 * composer install
 * cd docroot/themes/custom/vue
 * npm install
