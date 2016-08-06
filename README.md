@@ -9,7 +9,7 @@ You will need the following installed:
 
 ## Getting Started
 
-* git clone XXX
+* git clone https://github.com/karlkedrovsky/drupalcorn2016-vue-drupal.git
 * cd vue-drupal
 * composer install
 * cd docroot/themes/custom/vue
